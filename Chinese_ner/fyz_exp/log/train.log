@@ -1,0 +1,15 @@
+2017-08-21 15:49:01,834 - log/train.log - INFO - num_chars      :	4412
+2017-08-21 15:49:01,834 - log/train.log - INFO - char_dim       :	100
+2017-08-21 15:49:01,834 - log/train.log - INFO - num_tags       :	13
+2017-08-21 15:49:01,834 - log/train.log - INFO - seg_dim        :	20
+2017-08-21 15:49:01,834 - log/train.log - INFO - lstm_dim       :	100
+2017-08-21 15:49:01,834 - log/train.log - INFO - batch_size     :	20
+2017-08-21 15:49:01,834 - log/train.log - INFO - emb_file       :	wiki_100.utf8
+2017-08-21 15:49:01,835 - log/train.log - INFO - clip           :	5
+2017-08-21 15:49:01,835 - log/train.log - INFO - dropout_keep   :	0.5
+2017-08-21 15:49:01,835 - log/train.log - INFO - optimizer      :	adam
+2017-08-21 15:49:01,835 - log/train.log - INFO - lr             :	0.001
+2017-08-21 15:49:01,835 - log/train.log - INFO - tag_schema     :	iobes
+2017-08-21 15:49:01,835 - log/train.log - INFO - pre_emb        :	True
+2017-08-21 15:49:01,835 - log/train.log - INFO - zeros          :	False
+2017-08-21 15:49:01,835 - log/train.log - INFO - lower          :	True
