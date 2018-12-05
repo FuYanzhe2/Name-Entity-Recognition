@@ -20,3 +20,46 @@ Lstm-crf,Lattice-CRF,bert-ner及近年ner相关论文follow
 		链接：https://pan.baidu.com/s/1Uj97799tGjdET_vbdkW7tQ 
 		提取码：vgwi 
 		解压文件 放到data/ 文件夹下即可
+		
+- BERT-BiLSTM-CRF-NER
+	tensorflow 1.11.0
+    use method :
+		下载bert的中文模型https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip
+		解压放到checkpoint的目录下即可
+		├── bert
+		│   ├── CONTRIBUTING.md
+		│   ├── create_pretraining_data.py
+		│   ├── extract_features.py
+		│   ├── __init__.py
+		│   ├── LICENSE
+		│   ├── modeling.py
+            ......	
+		├── bert_lstm_ner.py
+		├── checkpoint
+		│   ├── chinese_L-12_H-768_A-12
+		│   │   ├── bert_config.json
+		│   │   ├── bert_model.ckpt.data-00000-of-00001
+		│   │   ├── bert_model.ckpt.index
+		│   │   ├── bert_model.ckpt.meta
+		│   │   └── vocab.txt
+		│   └── chinese_L-12_H-768_A-12.zip
+		├── conlleval.pl
+		├── conlleval.py
+		├── lstm_crf_layer.py
+		├── NERdata
+		│   ├── dev.txt
+		│   ├── ori
+		│   │   ├── dev.txt
+		│   │   ├── test.txt
+		│   │   └── train.txt
+		│   ├── test.txt
+		│   └── train.txt
+		├── picture1.png
+		├── picture2.png
+		├── README.md
+		└── tf_metrics.py
+		运行：
+			python3 main.py（也可以根据代码设置命令行参数）
+		代码详细使用说明见博客：
+			
+	
