@@ -60,6 +60,6 @@ Lstm-crf,Lattice-CRF,bert-ner及近年ner相关论文follow
 		└── tf_metrics.py
 		运行：
 			python3 main.py（也可以根据代码设置命令行参数）
-		代码详细使用说明见博客：
+		代码详细使用说明见博客：https://www.jianshu.com/p/b05e50f682dd
 			
 	
